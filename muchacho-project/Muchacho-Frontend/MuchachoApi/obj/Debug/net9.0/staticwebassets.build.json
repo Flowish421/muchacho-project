@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "G/+HXabx2GCeRW6P+GTPVLNMLOzWcYIU0yUBqW4SR2o=",
+  "Source": "MuchachoApi",
+  "BasePath": "_content/MuchachoApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

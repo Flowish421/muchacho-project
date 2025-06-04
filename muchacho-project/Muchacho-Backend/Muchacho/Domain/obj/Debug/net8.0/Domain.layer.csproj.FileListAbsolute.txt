@@ -1,0 +1,11 @@
+C:\Users\ahmed\Desktop\Muchacho\Muchacho\Domain\bin\Debug\net8.0\Domain.layer.deps.json
+C:\Users\ahmed\Desktop\Muchacho\Muchacho\Domain\bin\Debug\net8.0\Domain.layer.dll
+C:\Users\ahmed\Desktop\Muchacho\Muchacho\Domain\bin\Debug\net8.0\Domain.layer.pdb
+C:\Users\ahmed\Desktop\Muchacho\Muchacho\Domain\obj\Debug\net8.0\Domain.layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmed\Desktop\Muchacho\Muchacho\Domain\obj\Debug\net8.0\Domain.layer.AssemblyInfoInputs.cache
+C:\Users\ahmed\Desktop\Muchacho\Muchacho\Domain\obj\Debug\net8.0\Domain.layer.AssemblyInfo.cs
+C:\Users\ahmed\Desktop\Muchacho\Muchacho\Domain\obj\Debug\net8.0\Domain.layer.csproj.CoreCompileInputs.cache
+C:\Users\ahmed\Desktop\Muchacho\Muchacho\Domain\obj\Debug\net8.0\Domain.layer.dll
+C:\Users\ahmed\Desktop\Muchacho\Muchacho\Domain\obj\Debug\net8.0\refint\Domain.layer.dll
+C:\Users\ahmed\Desktop\Muchacho\Muchacho\Domain\obj\Debug\net8.0\Domain.layer.pdb
+C:\Users\ahmed\Desktop\Muchacho\Muchacho\Domain\obj\Debug\net8.0\ref\Domain.layer.dll
