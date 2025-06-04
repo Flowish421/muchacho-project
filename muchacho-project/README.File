@@ -1,11 +1,72 @@
-# Muchacho Project 🌮
+# 🌮 Muchacho Project – Restaurangsystem
 
-Fullstackprojekt för restaurangen **Muchacho** med:
+Välkommen till **Muchacho** – ett skolprojekt som växte till något mycket större än vi trodde!  
+**Team FlowTec** är stolta över att snart lansera hemsidan för den befintliga restaurangen **Muchacho**.  
 
-- 🧠 Backend: .NET 8 Web API (Booking System)
-- 🎨 Frontend: React + Tailwind CSS
+Detta är ett fullstackprojekt byggt med modern webbteknik, arkitektur och samarbete i fokus.  
 
 ---
 
-## 📁 Projektstruktur
+## 🧠 Backend – .NET 8 Web API
 
+Vi använder en **Clean Architecture**-struktur som delar upp logik i:
+- **API (Presentation Layer)** – hanterar HTTP-anrop via Controllers
+- **Application Layer** – innehåller use-cases, commands, services & interfaces
+- **Domain Layer** – innehåller ren affärslogik (Entities)
+- **Infrastructure Layer** – hanterar databasaccess (EF Core, DbContext)
+
+### Backend Packages
+| Paket                        | Användning                         |
+|------------------------------|------------------------------------|
+| `Microsoft.EntityFrameworkCore` | ORM för databasaccess            |
+| `FluentValidation`           | Validering av request-modeller     |
+| `MediatR`                    | Command/Query-hantering (CQRS)     |
+| `xUnit`                      | Testning                           |
+| `Moq`                        | Mocking i tester                   |
+
+---
+
+## 🎨 Frontend – React + Tailwind CSS
+
+Frontend är byggd med **Vite + React + TypeScript** och snackar direkt med backend via HTTP-anrop.
+
+Komponentbaserad menyvisning (Tapas, Varmrätter, Dryck, Dessert) samt ett bokningsformulär som skickar data till API:t.
+
+### Frontend Packages
+| Paket              | Användning                         |
+|--------------------|------------------------------------|
+| `react`            | Byggblock för UI                   |
+| `react-router-dom` | Routing mellan sidor/komponenter   |
+| `axios`            | HTTP-anrop till backend            |
+| `tailwindcss`      | Utility-first CSS                  |
+| `postcss`          | PostCSS-stöd för Tailwind          |
+| `typescript`       | Typning i hela projektet           |
+
+---
+
+## 🔧 Funktioner
+
+✅ Bokningsformulär  
+✅ API med Clean Architecture (Command/Handler + Services)  
+✅ Separat frontend och backend  
+✅ GitHub-repo med struktur och testprojekt  
+✅ Tydlig koduppdelning & teamarbete  
+
+---
+
+## 🚀 Startkommandon
+
+### 🧱 Starta Backend (Muchacho-Backend)
+
+```bash
+cd Muchacho-Backend/Muchacho
+dotnet restore                 # Installerar beroenden
+dotnet ef database update     # Skapar/updaterar databasen (om EF används)
+dotnet run                    # Startar API:t (http://localhost:5000)
+
+### 🎨 Starta Frontend (Muchacho-Frontend)
+
+```bash
+cd Muchacho-Frontend
+npm install           # Installerar alla nödvändiga paket
+npm start             # Startar utvecklingsservern (http://localhost:5173)
